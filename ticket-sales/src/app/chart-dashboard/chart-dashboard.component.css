@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  margin-top: 50px;
+  padding: 0;
+}
+.chart-container {
+  flex: 60%;
+  place-content: center;
+  margin-left: 40px;
+}
+.ticket-copoun {
+  flex: 40%;
+  border-radius: 20px;
+  background-color: #8a74f9;
+}
+.film-ticket {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Neo Sans Arabic", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.ticket-link {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  background: #eee;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.72em;
+}
+.link {
+  font-size: 16px;
+  font-family: 600;
+}
+.ticketRip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circleLeft {
+  width: 12px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 12px 0 0 12px;
+}
+.ripLine {
+  width: 100%;
+  border-top: 3px solid white;
+  border-top-style: dashed;
+}
+.circleRight {
+  width: 12px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 0 12px 12px 0;
+}
+.ticket-activity {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Neo Sans Arabic", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.qr {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.ticket-det {
+  padding: 15px 50px;
+  font-weight: 400;
+  font-family: "Neo Sans Arabic", sans-serif;
+}
+.share {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #e9eaea;
+  padding: 7px;
+  color: white;
+  border-radius: 7px;
+}
+.ticket-number {
+  color: white;
+  margin-left: 10px;
+}
+.discount {
+  color: white;
+}
+.discount-details {
+  padding-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .chart-container {
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .chart-container {
+    width: 350px;
+  }
+}
+@media (max-width: 425px) {
+  .chart-container {
+    width: 200px;
+  }
+  .film-ticket,
+  .ticket-activity,
+  .link,
+  .ticket-det {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .chart-container {
+    width: 100px;
+  }
+  .film-ticket,
+  .ticket-activity,
+  .link,
+  .ticket-det {
+    font-size: 10px;
+  }
+}

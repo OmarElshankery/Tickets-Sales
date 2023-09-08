@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "أحمد محمود",
+      "ticketSeat": "C-101",
+      "price": "$40",
+      "cinemas": "سينما مصر,مول العرب, برج الاطنان, سرايا القبة",
+      "numberOfPeople": "1",
+      "numberOfBuy": "مرة واحدة",
+      "ticket": "تذكرة رقم 45"
+    },
+    {
+      "id": "1",
+      "name": "محمد الغريب",
+      "ticketSeat": "C-102",
+      "price": "$30",
+      "cinemas": "سينما مصر,مول العرب, برج الاطنان, سرايا القبة",
+      "numberOfPeople": "1",
+      "numberOfBuy": "مرة واحدة",
+      "ticket": "تذكرة رقم 45"
+    },
+    {
+      "id": "3",
+      "name": "محمد الغريب",
+      "ticketSeat": "C-102",
+      "price": "$45",
+      "cinemas": "سينما مصر,مول العرب, برج الاطنان, سرايا القبة",
+      "numberOfPeople": "1",
+      "numberOfBuy": "مرة واحدة",
+      "ticket": "تذكرة رقم 45"
+    },
+    {
+      "id": "4",
+      "name": "محمد الغريب",
+      "ticketSeat": "C-104",
+      "price": "$54",
+      "cinemas": "سينما مصر,مول العرب, برج الاطنان, سرايا القبة",
+      "numberOfPeople": "1",
+      "numberOfBuy": "مرة واحدة",
+      "ticket": "تذكرة رقم 45"
+    }
+  ]
+}
